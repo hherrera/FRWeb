@@ -146,13 +146,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ReportsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Dsn.cs" />
     <Compile Include="Models\Reports.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -165,8 +165,26 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="App_Data\Barcode.frx" />
+    <Content Include="App_Data\Box.frx" />
+    <Content Include="App_Data\ANEXO_EGRESOS.frx" />
+    <Content Include="App_Data\EGRECH023.frx" />
+    <Content Include="App_Data\EGRECH023_Continuo.frx" />
+    <Content Include="App_Data\EGRECH07.frx" />
+    <Content Include="App_Data\EGRECH111.frx" />
+    <Content Include="App_Data\EGRECH23.frx" />
+    <Content Include="App_Data\Factura.frx" />
+    <Content Include="App_Data\FACTURACOMPRA.frx" />
+    <Content Include="App_Data\Factura_Moneda.frx" />
+    <Content Include="App_Data\IMPRIDCTO.frx" />
+    <Content Include="App_Data\Impridcto_Preparacion.frx" />
+    <Content Include="App_Data\IMPRIDCTO_PROF.frx" />
+    <Content Include="App_Data\RECICAJA.frx" />
+    <Content Include="App_Data\RECICAJA_PROF.frx" />
+    <Content Include="App_Data\RptAuxiliarTercero.frx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -193,9 +211,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
