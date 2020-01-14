@@ -46,8 +46,8 @@ namespace FRWeb.Controllers
 
         Dsn[] dsnItems = new Dsn[]
        {
-         new Dsn { Id = 1, DataSource= @"Data Source=192.168.100.5\SEGOVIA;AttachDbFilename=;Initial Catalog=mca;Integrated Security=False;Persist Security Info=True;User ID=sa;Password=75080508360" },
-         new Dsn { Id = 2, DataSource= @"Data Source=192.168.100.5\SEGOVIA;AttachDbFilename=;Initial Catalog=Contabilidad;Integrated Security=False;Persist Security Info=True;User ID=sa;Password=75080508360" }
+         new Dsn { Id = 1, DataSource= @"Data Source=192.168.100.5\SEGOVIA;AttachDbFilename=;Initial Catalog=mca;Integrated Security=False;Persist Security Info=True;User ID=sa;Password=******" },
+         new Dsn { Id = 2, DataSource= @"Data Source=192.168.100.5\SEGOVIA;AttachDbFilename=;Initial Catalog=Contabilidad;Integrated Security=False;Persist Security Info=True;User ID=sa;Password=******* }
 
        };
 
