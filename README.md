@@ -3,7 +3,7 @@ Api web despliegue reportes Zeus
 
 - Instalar complemento Github visual studio
 
-Aqui estan las instruccines base de esta demo:
+Aqui estan las instrucciones base de esta demo para construir una API para reportes :
 
 https://www.fast-report.com/en/blog/158/show/
 
